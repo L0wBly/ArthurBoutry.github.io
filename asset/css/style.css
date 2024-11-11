@@ -6,26 +6,56 @@
 
 body {
     height: 100vh;
+    background-color: black;
 }
 
-div {
-    height: 100%;
+header img {
+    height: 25rem;
+    border-radius: 30rem;
+    position: absolute;
+    margin: 20px 0 0 25px;
+}
+
+.titre h1 {
+    color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10.8rem;
+    font-size: 4rem;
+    margin: 0 0 0 3rem;
 }
 
-a {
-    margin: 0 50px;
-    padding: 20px;
-    text-decoration: none;
-    color: blue;
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-a:hover {
-    color: black;
-    background-color: red;
-    box-sizing: border-box;
-    text-decoration: none;
+.carre1 {
+    height: 20rem;
+    width: 20rem;
+    border: solid 1px grey;
+    background: grey;
+    border-radius: 3rem;
 }
 
+.carre1 a.lien1 {
+    text-align: center;
+    color: wheat;
+    padding:0rem 3rem 18.9rem 17rem;
+}
+
+.carre2 {
+    height: 20rem;
+    width: 20rem;
+    border: solid 1px grey;
+    background: grey;
+    border-radius: 3rem;
+}
+
+.carre2 a.lien2 {
+    text-align: center;
+    color: wheat;
+    padding:0rem 3rem 18.9rem 17rem;
+}
