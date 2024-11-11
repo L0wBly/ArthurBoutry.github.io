@@ -16,7 +16,7 @@ header img {
     margin: 20px 0 0 25px;
 }
 
-.titre h1 {
+header .titre h1 {
     color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -30,6 +30,12 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 10rem 10rem 0 10rem;
+}
+
+p {
+    color: blanchedalmond;
+    font-size: 1.5rem;
 }
 
 .carre1 {
@@ -38,12 +44,17 @@ main {
     border: solid 1px grey;
     background: grey;
     border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .carre1 a.lien1 {
     text-align: center;
     color: wheat;
-    padding:0rem 3rem 18.9rem 17rem;
+    padding:0rem 3rem 20rem 17rem;
+    position: absolute;
 }
 
 .carre2 {
@@ -52,10 +63,15 @@ main {
     border: solid 1px grey;
     background: grey;
     border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .carre2 a.lien2 {
     text-align: center;
     color: wheat;
-    padding:0rem 3rem 18.9rem 17rem;
+    padding:0rem 3rem 20rem 17rem;
+    position: absolute;
 }
